@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="50 70 600 280" fill="none">
+  <defs>
+    <linearGradient id="xanox-light-gold" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9a6e34"/>
+      <stop offset="30%" stop-color="#f5d082"/>
+      <stop offset="60%" stop-color="#e2b152"/>
+      <stop offset="100%" stop-color="#8c5f24"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(40 -10)">
+    <path d="M110 120 Q180 150 300 240 L260 245 Q150 160 140 115 Z" fill="#111111"/>
+    <path d="M70 230 C150 230 200 170 250 135 C330 90 420 100 480 135 C520 155 550 160 580 165 L580 170 C540 160 510 155 475 145 C410 120 340 105 260 145 C200 175 140 220 75 235 Z" fill="#111111"/>
+    <path d="M170 250 L305 115 L295 105 L345 85 L325 135 L315 125 L185 260 Z" fill="url(#xanox-light-gold)"/>
+    <g fill="none" stroke="#111111" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M350 145 C430 135 480 145 520 155 C540 160 555 165 570 170" stroke-width="3"/>
+      <path d="M580 178 C570 195 530 195 500 192 C470 188 450 175 430 175" stroke-width="2.5"/>
+      <path d="M430 175 C410 175 390 170 360 170" stroke-width="2.5"/>
+    </g>
+    <path d="M535 158 L565 165 L550 168 Z" fill="#111111"/>
+  </g>
+  <g transform="translate(60 0)">
+    <path d="M110 280 L132 280 L145 300 L158 280 L180 280 L156 305 L180 330 L158 330 L145 310 L132 330 L110 330 L134 305 Z" fill="#111111"/>
+    <path d="M210 330 L232 280 L248 280 L270 330 L250 330 L240 300 L230 330 Z" fill="#111111"/>
+    <path d="M300 330 L300 280 L318 280 L342 315 L342 280 L360 280 L360 330 L342 330 L318 295 L318 330 Z" fill="#111111"/>
+    <rect x="406" y="286" width="48" height="38" rx="10" fill="none" stroke="url(#xanox-light-gold)" stroke-width="12"/>
+    <path d="M490 280 L512 280 L525 300 L538 280 L560 280 L536 305 L560 330 L538 330 L525 310 L512 330 L490 330 L514 305 Z" fill="#111111"/>
+  </g>
+</svg>

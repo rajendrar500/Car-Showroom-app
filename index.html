@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>XANOX — Premium Automotive Marketplace in Korea</title>
+    <meta name="description" content="XANOX is a premium automotive marketplace operating from Incheon, Republic of Korea, with curated cars, private auctions, shipping and CarImages 3D previews." />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="XANOX Automotive Marketplace" />
+    <meta property="og:description" content="Discover exceptional cars, private auctions, shipping and immersive 3D previews with XANOX in Incheon." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="XANOX Automotive Marketplace" />
+    <meta name="twitter:description" content="Discover exceptional cars, private auctions, shipping and immersive 3D previews with XANOX in Incheon." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('xanox-theme');
+          if (stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.add('light');
+          }
+        } catch (_) {}
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

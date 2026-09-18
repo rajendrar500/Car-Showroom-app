@@ -1,0 +1,15 @@
+<svg width="240" height="76" viewBox="0 0 240 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .loader-body,.loader-wheel{fill:none;stroke:#D6AB67;stroke-linecap:round;stroke-linejoin:round}
+    .loader-body{stroke-width:2;stroke-dasharray:420;stroke-dashoffset:420;animation:draw .9s cubic-bezier(.22,.8,.25,1) forwards}
+    .loader-wheel{stroke-width:1.5;transform-box:fill-box;transform-origin:center;animation:pulse 1s ease-in-out infinite}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    @keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){.loader-body{animation:none;stroke-dashoffset:0}.loader-wheel{animation:none}}
+  </style>
+  <path class="loader-body" d="M18 53C29 51 34 43 45 35C58 26 73 22 95 22H139C157 22 169 27 181 37L211 42C218 43 223 48 224 53H18Z"/>
+  <path class="loader-body" d="M60 31L75 17H127C139 17 149 22 156 33"/>
+  <path class="loader-body" d="M21 53H224"/>
+  <circle class="loader-wheel" cx="58" cy="53" r="10"/>
+  <circle class="loader-wheel" cx="187" cy="53" r="10"/>
+</svg>
